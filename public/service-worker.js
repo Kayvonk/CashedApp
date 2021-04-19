@@ -54,12 +54,13 @@ self.addEventListener("fetch", event => {
     event.request.method !== "GET" ||
     !event.request.url.startsWith(self.location.origin)
   ) {
-    event.respondWith(fetch(event.request));
+    // event.respondWith(fetch(event.request));
     return;
   }
 
   // handle runtime GET requests for data from /api routes
-  if (event.request.url.includes("/api/images")) {
+  if (event.request.url.includes("api")) {
+    console.log("Handling api request")
     // make network request and fallback to cache if network request fails (offline)
     event.respondWith(
       caches.open(RUNTIME_CACHE).then(cache => {
