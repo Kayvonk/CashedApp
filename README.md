@@ -15,7 +15,7 @@ This webpage allows the user to manage their finances and stores their transacti
 To install this application, add this repository to a folder of your choosing. Run npm install to acquire the necessary dependencies.
 
 ## Usage
-To utlize this application, run npm start in your terminal or command prompt. Transactions can be added or subtracted from the current available funds. 
+To utilize this application, run npm start in your terminal or command prompt. Transactions can be added or subtracted from the current available funds. 
 
 ![cachedAppThumbnail](./assets/cachedAppThumbnail.PNG)
 
