@@ -53,7 +53,7 @@ self.addEventListener("fetch", event => {
     event.request.method !== "GET" ||
     !event.request.url.startsWith(self.location.origin)
   ) {
-    // event.respondWith(fetch(event.request));
+    event.respondWith(fetch(event.request));
     return;
   }
 
