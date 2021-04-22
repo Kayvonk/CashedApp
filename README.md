@@ -15,9 +15,13 @@ This webpage allows the user to manage their finances and stores their transacti
 To install this application, add this repository to a folder of your choosing. Run npm install to acquire the necessary dependencies.
 
 ## Usage
-To utilize this application, run npm start in your terminal or command prompt. Transactions can be added or subtracted from the current available funds. 
+To utilize this application, run npm start in your terminal or command prompt. Transactions can be added or subtracted from the current available funds. Similarly, the application can be run from heroku using the following link:
+
+Deployed application: https://damp-peak-76655.herokuapp.com/
 
 ![cachedAppThumbnail](./assets/cachedAppThumbnail.PNG)
+
+
 
 ## License
 This project is licensed with MIT.
